@@ -1,0 +1,1279 @@
+[{
+  "_id": {
+    "$oid": "652d2da1c3b560a6ca0a54c6"
+  },
+  "customerId": "6494609dd6e8b675290067fc",
+  "tadbeerCenter": "Al Nukhba Center For Employment Services L.L.C",
+  "is_completed": 0,
+  "status": "0",
+  "updatedDate": {
+    "$date": "2023-10-16T12:37:25.722Z"
+  },
+  "type": "Application",
+  "createdDate": {
+    "$date": "2023-10-16T12:33:37.361Z"
+  },
+  "__v": 0,
+  "address": {
+    "currentAddress": {
+      "P_O_Box": "",
+      "villa_ApartmentNo": "",
+      "building": "",
+      "emirate": "",
+      "street": "",
+      "area": "",
+      "landLineNumber": "",
+      "residenceStatus": "",
+      "monthlyRentPaid": "",
+      "_id": {
+        "$oid": "652d2e85c3b560a6ca0a54cd"
+      }
+    },
+    "permanentAddress": {
+      "P_O_Box": "pobox",
+      "villa_ApartmentNo": "villa",
+      "building": "buiding",
+      "country": "India",
+      "city": "city",
+      "street": "street",
+      "area": "area",
+      "telephoneNumber": "98754126354",
+      "_id": {
+        "$oid": "652d2e85c3b560a6ca0a54ce"
+      }
+    },
+    "_id": {
+      "$oid": "652d2e85c3b560a6ca0a54cc"
+    }
+  },
+  "dateOfBirth": "20/10/2023",
+  "employmentDetails": {
+    "name": "employ name",
+    "employeeNumber": "8945616454",
+    "designation": "desiganation",
+    "department": "department",
+    "address": "address",
+    "emiRate": "emirates",
+    "monthlyIncome": "8746541",
+    "salaryTransferDate": "4",
+    "dateofJoiningJob": "20/10/2022",
+    "_id": {
+      "$oid": "652d2e85c3b560a6ca0a54cf"
+    }
+  },
+  "gender": "male",
+  "maritalStatus": "single",
+  "nationality": "IN",
+  "noOfDependents": "11",
+  "otherExpensis": {
+    "monthlyEducationExpenses": "10",
+    "monthlyFoodExpenses": "10",
+    "monthlyHouseRentExpenses": "10",
+    "total": "30",
+    "_id": {
+      "$oid": "652d2e85c3b560a6ca0a54d8"
+    }
+  },
+  "passport": {
+    "passportNo": "126546541465",
+    "passportExpiryDate": "17/10/2023",
+    "_id": {
+      "$oid": "652d2e85c3b560a6ca0a54ca"
+    }
+  },
+  "qualifications": "graduate",
+  "references": {
+    "inUae": {
+      "name": "",
+      "relation": "",
+      "mobileNumber": "",
+      "officeNo": "",
+      "address": "",
+      "_id": {
+        "$oid": "652d2e85c3b560a6ca0a54da"
+      }
+    },
+    "inHomeCountry": {
+      "name": "name",
+      "relation": "Mother",
+      "mobileNumber": "98756465",
+      "employer": "employer",
+      "country": "India",
+      "officeNo": "5121",
+      "address": "address",
+      "_id": {
+        "$oid": "652d2e85c3b560a6ca0a54db"
+      }
+    },
+    "_id": {
+      "$oid": "652d2e85c3b560a6ca0a54d9"
+    }
+  },
+  "residenceVisa": {
+    "residenceVisaNo": "",
+    "visaIssueDate": "18/10/2023",
+    "visaExpiryDate": "19/10/2023",
+    "_id": {
+      "$oid": "652d2e85c3b560a6ca0a54cb"
+    }
+  },
+  "typeOfLiability": {
+    "educationalFinance": {
+      "bank": "ABC",
+      "amountOutstanding": "10",
+      "monthlyRepayments": "20",
+      "_id": {
+        "$oid": "652d2e85c3b560a6ca0a54d1"
+      }
+    },
+    "personalFinance": {
+      "bank": "ABC",
+      "amountOutstanding": "10",
+      "monthlyRepayments": "20",
+      "_id": {
+        "$oid": "652d2e85c3b560a6ca0a54d2"
+      }
+    },
+    "autoFinance": {
+      "bank": "ABC",
+      "amountOutstanding": "10",
+      "monthlyRepayments": "20",
+      "_id": {
+        "$oid": "652d2e85c3b560a6ca0a54d3"
+      }
+    },
+    "creditCard": {
+      "bank": "ABC",
+      "amountOutstanding": "10",
+      "monthlyRepayments": "20",
+      "_id": {
+        "$oid": "652d2e85c3b560a6ca0a54d4"
+      }
+    },
+    "mortgage": {
+      "bank": "ABC",
+      "amountOutstanding": "10",
+      "monthlyRepayments": "20",
+      "_id": {
+        "$oid": "652d2e85c3b560a6ca0a54d5"
+      }
+    },
+    "other_liabilities": {
+      "bank": "ABC",
+      "amountOutstanding": "10",
+      "monthlyRepayments": "20",
+      "_id": {
+        "$oid": "652d2e85c3b560a6ca0a54d6"
+      }
+    },
+    "total": {
+      "bank": "ABC",
+      "amountOutstanding": "60",
+      "monthlyRepayments": "120",
+      "_id": {
+        "$oid": "652d2e85c3b560a6ca0a54d7"
+      }
+    },
+    "_id": {
+      "$oid": "652d2e85c3b560a6ca0a54d0"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "652d3049c3b560a6ca0a54de"
+  },
+  "customerId": "6494609dd6e8b675290067fc",
+  "tadbeerCenter": "Eitmam Domestic Workers sole Proprietorship LLS",
+  "is_completed": 0,
+  "status": "0",
+  "updatedDate": {
+    "$date": "2023-10-16T12:48:47.592Z"
+  },
+  "type": "Application",
+  "createdDate": {
+    "$date": "2023-10-16T12:44:57.280Z"
+  },
+  "__v": 0,
+  "address": {
+    "currentAddress": {
+      "P_O_Box": "xyz",
+      "villa_ApartmentNo": "villa",
+      "building": "buiding",
+      "emirate": "emirtae",
+      "street": "abc",
+      "area": "area",
+      "landLineNumber": "9875465654",
+      "residenceStatus": "Rented",
+      "monthlyRentPaid": "231564",
+      "_id": {
+        "$oid": "652d312fc3b560a6ca0a54e4"
+      }
+    },
+    "permanentAddress": {
+      "P_O_Box": "",
+      "villa_ApartmentNo": "",
+      "building": "",
+      "city": "",
+      "street": "",
+      "area": "",
+      "telephoneNumber": "",
+      "_id": {
+        "$oid": "652d312fc3b560a6ca0a54e5"
+      }
+    },
+    "_id": {
+      "$oid": "652d312fc3b560a6ca0a54e3"
+    }
+  },
+  "dateOfBirth": "18/10/2023",
+  "employmentDetails": {
+    "name": "abc",
+    "employeeNumber": "4546",
+    "designation": "mno",
+    "department": "department",
+    "address": "xyyzz address",
+    "emiRate": "demo",
+    "monthlyIncome": "13456",
+    "salaryTransferDate": "9",
+    "dateofJoiningJob": "06/10/2022",
+    "_id": {
+      "$oid": "652d312fc3b560a6ca0a54e6"
+    }
+  },
+  "gender": "male",
+  "maritalStatus": "single",
+  "nationality": "AE",
+  "noOfDependents": "12",
+  "otherExpensis": {
+    "monthlyEducationExpenses": "5647",
+    "monthlyFoodExpenses": "546",
+    "monthlyHouseRentExpenses": "54",
+    "total": "6252",
+    "_id": {
+      "$oid": "652d312fc3b560a6ca0a54ef"
+    }
+  },
+  "passport": {
+    "passportNo": "",
+    "passportExpiryDate": "",
+    "_id": {
+      "$oid": "652d312fc3b560a6ca0a54e1"
+    }
+  },
+  "qualifications": "high School",
+  "references": {
+    "inUae": {
+      "name": "Uae name",
+      "relation": "Mother",
+      "mobileNumber": "486454546547",
+      "officeNo": "213",
+      "address": "Address",
+      "_id": {
+        "$oid": "652d312fc3b560a6ca0a54f1"
+      }
+    },
+    "inHomeCountry": {
+      "name": "",
+      "relation": "",
+      "mobileNumber": "",
+      "employer": "",
+      "officeNo": "",
+      "address": "",
+      "_id": {
+        "$oid": "652d312fc3b560a6ca0a54f2"
+      }
+    },
+    "_id": {
+      "$oid": "652d312fc3b560a6ca0a54f0"
+    }
+  },
+  "residenceVisa": {
+    "residenceVisaNo": "123",
+    "visaIssueDate": "",
+    "visaExpiryDate": "",
+    "_id": {
+      "$oid": "652d312fc3b560a6ca0a54e2"
+    }
+  },
+  "typeOfLiability": {
+    "educationalFinance": {
+      "bank": "XYZ",
+      "amountOutstanding": "564",
+      "monthlyRepayments": "589",
+      "_id": {
+        "$oid": "652d312fc3b560a6ca0a54e8"
+      }
+    },
+    "personalFinance": {
+      "bank": "XYZ",
+      "amountOutstanding": "541",
+      "monthlyRepayments": "897",
+      "_id": {
+        "$oid": "652d312fc3b560a6ca0a54e9"
+      }
+    },
+    "autoFinance": {
+      "bank": "XYZ",
+      "amountOutstanding": "897",
+      "monthlyRepayments": "5465",
+      "_id": {
+        "$oid": "652d312fc3b560a6ca0a54ea"
+      }
+    },
+    "creditCard": {
+      "bank": "XYZ",
+      "amountOutstanding": "213",
+      "monthlyRepayments": "5423",
+      "_id": {
+        "$oid": "652d312fc3b560a6ca0a54eb"
+      }
+    },
+    "mortgage": {
+      "bank": "XYZ",
+      "amountOutstanding": "8978",
+      "monthlyRepayments": "231456",
+      "_id": {
+        "$oid": "652d312fc3b560a6ca0a54ec"
+      }
+    },
+    "other_liabilities": {
+      "bank": "XYZ",
+      "amountOutstanding": "1687",
+      "monthlyRepayments": "6554",
+      "_id": {
+        "$oid": "652d312fc3b560a6ca0a54ed"
+      }
+    },
+    "total": {
+      "bank": "XYZ",
+      "amountOutstanding": "12880",
+      "monthlyRepayments": "250384",
+      "_id": {
+        "$oid": "652d312fc3b560a6ca0a54ee"
+      }
+    },
+    "_id": {
+      "$oid": "652d312fc3b560a6ca0a54e7"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "652d318ac3b560a6ca0a54f5"
+  },
+  "customerId": "6494609dd6e8b675290067fc",
+  "tadbeerCenter": "BIN HAREB DOMESTIC WORKERS SERVICES",
+  "is_completed": 0,
+  "status": "0",
+  "updatedDate": {
+    "$date": "2023-10-16T12:53:57.710Z"
+  },
+  "type": "Application",
+  "createdDate": {
+    "$date": "2023-10-16T12:50:18.359Z"
+  },
+  "__v": 0,
+  "address": {
+    "currentAddress": {
+      "P_O_Box": "",
+      "villa_ApartmentNo": "",
+      "building": "",
+      "emirate": "",
+      "street": "",
+      "area": "",
+      "landLineNumber": "",
+      "residenceStatus": "",
+      "monthlyRentPaid": "",
+      "_id": {
+        "$oid": "652d3265c3b560a6ca0a54fb"
+      }
+    },
+    "permanentAddress": {
+      "P_O_Box": "xyz",
+      "villa_ApartmentNo": "89564",
+      "building": "MNO",
+      "country": "Afghanistan",
+      "city": "CITY",
+      "street": "OPQ",
+      "area": "ABC",
+      "telephoneNumber": "987564187",
+      "_id": {
+        "$oid": "652d3265c3b560a6ca0a54fc"
+      }
+    },
+    "_id": {
+      "$oid": "652d3265c3b560a6ca0a54fa"
+    }
+  },
+  "dateOfBirth": "25/10/2023",
+  "employmentDetails": {
+    "name": "TEST NAME",
+    "employeeNumber": "7856585",
+    "designation": "MANAGER",
+    "department": "IT ",
+    "address": "AFGHANISTAN",
+    "emiRate": "IN UAE",
+    "monthlyIncome": "216387465",
+    "salaryTransferDate": "19",
+    "dateofJoiningJob": "06/10/2022",
+    "_id": {
+      "$oid": "652d3265c3b560a6ca0a54fd"
+    }
+  },
+  "gender": "male",
+  "maritalStatus": "single",
+  "nationality": "AF",
+  "noOfDependents": "80",
+  "otherExpensis": {
+    "monthlyEducationExpenses": "217456",
+    "monthlyFoodExpenses": "217456",
+    "monthlyHouseRentExpenses": "217456",
+    "total": "652368",
+    "_id": {
+      "$oid": "652d3265c3b560a6ca0a5506"
+    }
+  },
+  "passport": {
+    "passportNo": "12345879",
+    "passportExpiryDate": "18/10/2024",
+    "_id": {
+      "$oid": "652d3265c3b560a6ca0a54f8"
+    }
+  },
+  "qualifications": "graduate",
+  "references": {
+    "inUae": {
+      "name": "",
+      "relation": "",
+      "mobileNumber": "",
+      "officeNo": "",
+      "address": "",
+      "_id": {
+        "$oid": "652d3265c3b560a6ca0a5508"
+      }
+    },
+    "inHomeCountry": {
+      "name": "COUNTRY NAME",
+      "relation": "Mother",
+      "mobileNumber": "13248675",
+      "employer": "EMPLOYER",
+      "country": "Afghanistan",
+      "officeNo": "12345",
+      "address": "MG ROAD",
+      "_id": {
+        "$oid": "652d3265c3b560a6ca0a5509"
+      }
+    },
+    "_id": {
+      "$oid": "652d3265c3b560a6ca0a5507"
+    }
+  },
+  "residenceVisa": {
+    "residenceVisaNo": "",
+    "visaIssueDate": "20/10/2022",
+    "visaExpiryDate": "18/10/2024",
+    "_id": {
+      "$oid": "652d3265c3b560a6ca0a54f9"
+    }
+  },
+  "typeOfLiability": {
+    "educationalFinance": {
+      "bank": "Main Bank",
+      "amountOutstanding": "1654",
+      "monthlyRepayments": "654",
+      "_id": {
+        "$oid": "652d3265c3b560a6ca0a54ff"
+      }
+    },
+    "personalFinance": {
+      "bank": "Main Bank",
+      "amountOutstanding": "1654",
+      "monthlyRepayments": "654",
+      "_id": {
+        "$oid": "652d3265c3b560a6ca0a5500"
+      }
+    },
+    "autoFinance": {
+      "bank": "Main Bank",
+      "amountOutstanding": "1654",
+      "monthlyRepayments": "654",
+      "_id": {
+        "$oid": "652d3265c3b560a6ca0a5501"
+      }
+    },
+    "creditCard": {
+      "bank": "Main Bank",
+      "amountOutstanding": "1654",
+      "monthlyRepayments": "654",
+      "_id": {
+        "$oid": "652d3265c3b560a6ca0a5502"
+      }
+    },
+    "mortgage": {
+      "bank": "Main Bank",
+      "amountOutstanding": "1654",
+      "monthlyRepayments": "654",
+      "_id": {
+        "$oid": "652d3265c3b560a6ca0a5503"
+      }
+    },
+    "other_liabilities": {
+      "bank": "Main Bank",
+      "amountOutstanding": "1654",
+      "monthlyRepayments": "654",
+      "_id": {
+        "$oid": "652d3265c3b560a6ca0a5504"
+      }
+    },
+    "total": {
+      "bank": "Main Bank",
+      "amountOutstanding": "9924",
+      "monthlyRepayments": "3924",
+      "_id": {
+        "$oid": "652d3265c3b560a6ca0a5505"
+      }
+    },
+    "_id": {
+      "$oid": "652d3265c3b560a6ca0a54fe"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "652d326ec3b560a6ca0a550c"
+  },
+  "customerId": "6494609dd6e8b675290067fc",
+  "tadbeerCenter": "NOOR AL AAFIYA TADBEER CENTER FOR DOMESTIC WORKERS SERVICES L.L.C",
+  "is_completed": 0,
+  "status": "0",
+  "updatedDate": {
+    "$date": "2023-10-16T12:58:04.372Z"
+  },
+  "type": "Application",
+  "createdDate": {
+    "$date": "2023-10-16T12:54:06.839Z"
+  },
+  "__v": 0,
+  "address": {
+    "currentAddress": {
+      "P_O_Box": "current po box",
+      "villa_ApartmentNo": "546",
+      "building": "big building",
+      "emirate": "demo emirtaes",
+      "street": "main street",
+      "area": "near area",
+      "landLineNumber": "126545842514",
+      "residenceStatus": "Owned",
+      "monthlyRentPaid": "213215",
+      "_id": {
+        "$oid": "652d335cc3b560a6ca0a5512"
+      }
+    },
+    "permanentAddress": {
+      "P_O_Box": "",
+      "villa_ApartmentNo": "",
+      "building": "",
+      "city": "",
+      "street": "",
+      "area": "",
+      "telephoneNumber": "",
+      "_id": {
+        "$oid": "652d335cc3b560a6ca0a5513"
+      }
+    },
+    "_id": {
+      "$oid": "652d335cc3b560a6ca0a5511"
+    }
+  },
+  "dateOfBirth": "28/10/2023",
+  "employmentDetails": {
+    "name": "employer",
+    "employeeNumber": "16547654",
+    "designation": "developer",
+    "department": "web",
+    "address": "near big city",
+    "emiRate": "emirates",
+    "monthlyIncome": "1254548",
+    "salaryTransferDate": "13",
+    "dateofJoiningJob": "27/10/2022",
+    "_id": {
+      "$oid": "652d335cc3b560a6ca0a5514"
+    }
+  },
+  "gender": "male",
+  "maritalStatus": "single",
+  "nationality": "AE",
+  "noOfDependents": "11",
+  "otherExpensis": {
+    "monthlyEducationExpenses": "15494",
+    "monthlyFoodExpenses": "654154",
+    "monthlyHouseRentExpenses": "0",
+    "total": "735063",
+    "_id": {
+      "$oid": "652d335cc3b560a6ca0a551d"
+    }
+  },
+  "passport": {
+    "passportNo": "",
+    "passportExpiryDate": "",
+    "_id": {
+      "$oid": "652d335cc3b560a6ca0a550f"
+    }
+  },
+  "qualifications": "graduate",
+  "references": {
+    "inUae": {
+      "name": "maxxi",
+      "relation": "Father",
+      "mobileNumber": "132496584654",
+      "officeNo": "546",
+      "address": "cross road  ",
+      "_id": {
+        "$oid": "652d335cc3b560a6ca0a551f"
+      }
+    },
+    "inHomeCountry": {
+      "name": "",
+      "relation": "",
+      "mobileNumber": "",
+      "employer": "",
+      "officeNo": "",
+      "address": "",
+      "_id": {
+        "$oid": "652d335cc3b560a6ca0a5520"
+      }
+    },
+    "_id": {
+      "$oid": "652d335cc3b560a6ca0a551e"
+    }
+  },
+  "residenceVisa": {
+    "residenceVisaNo": "321657454",
+    "visaIssueDate": "",
+    "visaExpiryDate": "",
+    "_id": {
+      "$oid": "652d335cc3b560a6ca0a5510"
+    }
+  },
+  "typeOfLiability": {
+    "educationalFinance": {
+      "bank": "Central Bank",
+      "amountOutstanding": "123",
+      "monthlyRepayments": "321",
+      "_id": {
+        "$oid": "652d335cc3b560a6ca0a5516"
+      }
+    },
+    "personalFinance": {
+      "bank": "Central Bank",
+      "amountOutstanding": "123",
+      "monthlyRepayments": "321",
+      "_id": {
+        "$oid": "652d335cc3b560a6ca0a5517"
+      }
+    },
+    "autoFinance": {
+      "bank": "Central Bank",
+      "amountOutstanding": "123",
+      "monthlyRepayments": "321",
+      "_id": {
+        "$oid": "652d335cc3b560a6ca0a5518"
+      }
+    },
+    "creditCard": {
+      "bank": "Central Bank",
+      "amountOutstanding": "123",
+      "monthlyRepayments": "321",
+      "_id": {
+        "$oid": "652d335cc3b560a6ca0a5519"
+      }
+    },
+    "mortgage": {
+      "bank": "Central Bank",
+      "amountOutstanding": "123",
+      "monthlyRepayments": "321",
+      "_id": {
+        "$oid": "652d335cc3b560a6ca0a551a"
+      }
+    },
+    "other_liabilities": {
+      "bank": "Central Bank",
+      "amountOutstanding": "123",
+      "monthlyRepayments": "321",
+      "_id": {
+        "$oid": "652d335cc3b560a6ca0a551b"
+      }
+    },
+    "total": {
+      "bank": "Central Bank",
+      "amountOutstanding": "738",
+      "monthlyRepayments": "1926",
+      "_id": {
+        "$oid": "652d335cc3b560a6ca0a551c"
+      }
+    },
+    "_id": {
+      "$oid": "652d335cc3b560a6ca0a5515"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "652e0ea811f46b4757aadeb7"
+  },
+  "customerId": "6494609dd6e8b675290067fc",
+  "tadbeerCenter": "Musherif Domestic Worker Services ",
+  "is_completed": 0,
+  "status": "0",
+  "updatedDate": {
+    "$date": "2023-10-17T04:37:32.646Z"
+  },
+  "type": "Application",
+  "applicationNumber": "1697517224",
+  "emiratesID": "",
+  "emiratesExpiryDate": "",
+  "createdDate": {
+    "$date": "2023-10-17T04:33:44.357Z"
+  },
+  "__v": 0,
+  "address": {
+    "currentAddress": {
+      "P_O_Box": "",
+      "villa_ApartmentNo": "",
+      "building": "",
+      "emirate": "",
+      "street": "",
+      "area": "",
+      "email": "test0000@gmail.com",
+      "mobileNumber": "9658214785",
+      "landLineNumber": "",
+      "residenceStatus": "",
+      "monthlyRentPaid": "",
+      "_id": {
+        "$oid": "652e0f8c11f46b4757aadebd"
+      }
+    },
+    "permanentAddress": {
+      "P_O_Box": "abcd",
+      "villa_ApartmentNo": "185",
+      "building": "buiding",
+      "country": "India",
+      "city": "city",
+      "street": "street",
+      "area": "area",
+      "telephoneNumber": "4656547",
+      "_id": {
+        "$oid": "652e0f8c11f46b4757aadebe"
+      }
+    },
+    "_id": {
+      "$oid": "652e0f8c11f46b4757aadebc"
+    }
+  },
+  "dateOfBirth": "12/10/2000",
+  "employmentDetails": {
+    "name": "DEMO ",
+    "employeeNumber": "7896512",
+    "designation": "DESIGNER",
+    "department": "DEPARTMENT",
+    "address": "ADDRESS",
+    "emiRate": "EMIRATES",
+    "monthlyIncome": "16557546",
+    "salaryTransferDate": "4",
+    "dateofJoiningJob": "02/11/2023",
+    "_id": {
+      "$oid": "652e0f8c11f46b4757aadebf"
+    }
+  },
+  "gender": "male",
+  "maritalStatus": "single",
+  "nationality": "IN",
+  "noOfDependents": "11",
+  "otherExpensis": {
+    "monthlyEducationExpenses": "232",
+    "monthlyFoodExpenses": "563",
+    "monthlyHouseRentExpenses": "543",
+    "total": "1392",
+    "_id": {
+      "$oid": "652e0f8c11f46b4757aadec8"
+    }
+  },
+  "passport": {
+    "passportNo": "156767984",
+    "passportExpiryDate": "18/10/2023",
+    "_id": {
+      "$oid": "652e0f8c11f46b4757aadeba"
+    }
+  },
+  "qualifications": "graduate",
+  "references": {
+    "inUae": {
+      "name": "",
+      "relation": "",
+      "mobileNumber": "",
+      "officeNo": "",
+      "address": "",
+      "_id": {
+        "$oid": "652e0f8c11f46b4757aadeca"
+      }
+    },
+    "inHomeCountry": {
+      "name": "XYZ",
+      "relation": "Mother",
+      "mobileNumber": "78946546",
+      "employer": "EMPLOYER",
+      "country": "India",
+      "officeNo": "1564",
+      "address": "ADDRESS",
+      "_id": {
+        "$oid": "652e0f8c11f46b4757aadecb"
+      }
+    },
+    "_id": {
+      "$oid": "652e0f8c11f46b4757aadec9"
+    }
+  },
+  "residenceVisa": {
+    "residenceVisaNo": "",
+    "visaIssueDate": "25/10/2023",
+    "visaExpiryDate": "19/10/2023",
+    "_id": {
+      "$oid": "652e0f8c11f46b4757aadebb"
+    }
+  },
+  "typeOfLiability": {
+    "educationalFinance": {
+      "bank": "Abcd",
+      "amountOutstanding": "100",
+      "monthlyRepayments": "10",
+      "_id": {
+        "$oid": "652e0f8c11f46b4757aadec1"
+      }
+    },
+    "personalFinance": {
+      "bank": "Abcd",
+      "amountOutstanding": "100",
+      "monthlyRepayments": "10",
+      "_id": {
+        "$oid": "652e0f8c11f46b4757aadec2"
+      }
+    },
+    "autoFinance": {
+      "bank": "Abcd",
+      "amountOutstanding": "100",
+      "monthlyRepayments": "10",
+      "_id": {
+        "$oid": "652e0f8c11f46b4757aadec3"
+      }
+    },
+    "creditCard": {
+      "bank": "Abcd",
+      "amountOutstanding": "100",
+      "monthlyRepayments": "1010",
+      "_id": {
+        "$oid": "652e0f8c11f46b4757aadec4"
+      }
+    },
+    "mortgage": {
+      "bank": "Abcd",
+      "amountOutstanding": "100",
+      "monthlyRepayments": "10",
+      "_id": {
+        "$oid": "652e0f8c11f46b4757aadec5"
+      }
+    },
+    "other_liabilities": {
+      "bank": "Abcd",
+      "amountOutstanding": "100",
+      "monthlyRepayments": "10",
+      "_id": {
+        "$oid": "652e0f8c11f46b4757aadec6"
+      }
+    },
+    "total": {
+      "bank": "",
+      "amountOutstanding": "600",
+      "monthlyRepayments": "1060",
+      "_id": {
+        "$oid": "652e0f8c11f46b4757aadec7"
+      }
+    },
+    "_id": {
+      "$oid": "652e0f8c11f46b4757aadec0"
+    }
+  },
+  "fuulName": "Demo Name"
+},
+{
+  "_id": {
+    "$oid": "652e0fbd11f46b4757aadece"
+  },
+  "customerId": "6494609dd6e8b675290067fc",
+  "tadbeerCenter": "Manazel center for domestic workers Services",
+  "is_completed": 0,
+  "status": "0",
+  "updatedDate": {
+    "$date": "2023-10-17T04:43:45.879Z"
+  },
+  "type": "Application",
+  "applicationNumber": "1697517501",
+  "emiratesID": "5445642545",
+  "emiratesExpiryDate": "18/10/2023",
+  "createdDate": {
+    "$date": "2023-10-17T04:38:21.612Z"
+  },
+  "__v": 0,
+  "address": {
+    "currentAddress": {
+      "P_O_Box": "abcd",
+      "villa_ApartmentNo": "165",
+      "building": "buiding",
+      "emirate": "ABCD",
+      "street": "street",
+      "area": "xyz",
+      "email": "test0000@gmail.com",
+      "mobileNumber": "9658214785",
+      "landLineNumber": "875465465467",
+      "residenceStatus": "Rented",
+      "monthlyRentPaid": "8795",
+      "_id": {
+        "$oid": "652e110111f46b4757aaded5"
+      }
+    },
+    "permanentAddress": {
+      "P_O_Box": "",
+      "villa_ApartmentNo": "",
+      "building": "",
+      "city": "",
+      "street": "",
+      "area": "",
+      "telephoneNumber": "",
+      "_id": {
+        "$oid": "652e110111f46b4757aaded6"
+      }
+    },
+    "_id": {
+      "$oid": "652e110111f46b4757aaded4"
+    }
+  },
+  "dateOfBirth": "05/10/2023",
+  "employmentDetails": {
+    "name": "Test Name",
+    "employeeNumber": "879546",
+    "designation": "ceo",
+    "department": "CIVIL",
+    "address": "MAIN CITY",
+    "emiRate": "EMIRATE 2",
+    "monthlyIncome": "12345798",
+    "salaryTransferDate": "5",
+    "dateofJoiningJob": "20/10/2023",
+    "_id": {
+      "$oid": "652e110111f46b4757aaded7"
+    }
+  },
+  "gender": "male",
+  "maritalStatus": "single",
+  "nationality": "AE",
+  "noOfDependents": "112",
+  "otherExpensis": {
+    "monthlyEducationExpenses": "156",
+    "monthlyFoodExpenses": "6545",
+    "monthlyHouseRentExpenses": "114",
+    "total": "6826",
+    "_id": {
+      "$oid": "652e110111f46b4757aadee0"
+    }
+  },
+  "passport": {
+    "passportNo": "",
+    "passportExpiryDate": "",
+    "_id": {
+      "$oid": "652e110111f46b4757aaded2"
+    }
+  },
+  "qualifications": "graduate",
+  "references": {
+    "inUae": {
+      "name": "WXYZ",
+      "relation": "Mother",
+      "mobileNumber": "5646876568",
+      "officeNo": "5654",
+      "address": "IN UAE",
+      "_id": {
+        "$oid": "652e110111f46b4757aadee2"
+      }
+    },
+    "inHomeCountry": {
+      "name": "",
+      "relation": "",
+      "mobileNumber": "",
+      "employer": "",
+      "officeNo": "",
+      "address": "",
+      "_id": {
+        "$oid": "652e110111f46b4757aadee3"
+      }
+    },
+    "_id": {
+      "$oid": "652e110111f46b4757aadee1"
+    }
+  },
+  "residenceVisa": {
+    "residenceVisaNo": "1684654165",
+    "visaIssueDate": "",
+    "visaExpiryDate": "",
+    "_id": {
+      "$oid": "652e110111f46b4757aaded3"
+    }
+  },
+  "typeOfLiability": {
+    "educationalFinance": {
+      "bank": "xyz",
+      "amountOutstanding": "111",
+      "monthlyRepayments": "15",
+      "_id": {
+        "$oid": "652e110111f46b4757aaded9"
+      }
+    },
+    "personalFinance": {
+      "bank": "xyz",
+      "amountOutstanding": "111",
+      "monthlyRepayments": "15",
+      "_id": {
+        "$oid": "652e110111f46b4757aadeda"
+      }
+    },
+    "autoFinance": {
+      "bank": "xyz",
+      "amountOutstanding": "111",
+      "monthlyRepayments": "15",
+      "_id": {
+        "$oid": "652e110111f46b4757aadedb"
+      }
+    },
+    "creditCard": {
+      "bank": "xyz",
+      "amountOutstanding": "111",
+      "monthlyRepayments": "15",
+      "_id": {
+        "$oid": "652e110111f46b4757aadedc"
+      }
+    },
+    "mortgage": {
+      "bank": "xyz",
+      "amountOutstanding": "111",
+      "monthlyRepayments": "15",
+      "_id": {
+        "$oid": "652e110111f46b4757aadedd"
+      }
+    },
+    "other_liabilities": {
+      "bank": "xyz",
+      "amountOutstanding": "111",
+      "monthlyRepayments": "15",
+      "_id": {
+        "$oid": "652e110111f46b4757aadede"
+      }
+    },
+    "total": {
+      "bank": "",
+      "amountOutstanding": "666",
+      "monthlyRepayments": "90",
+      "_id": {
+        "$oid": "652e110111f46b4757aadedf"
+      }
+    },
+    "_id": {
+      "$oid": "652e110111f46b4757aaded8"
+    }
+  },
+  "fullName": "Demo Name"
+},
+{
+  "_id": {
+    "$oid": "652e117c71c6b6a99da30fdf"
+  },
+  "customerId": "6494609dd6e8b675290067fc",
+  "tadbeerCenter": "Tadbeer Almutamayiz Manpower Supply L.L.C",
+  "is_completed": 0,
+  "status": "0",
+  "updatedDate": {
+    "$date": "2023-10-17T04:48:10.148Z"
+  },
+  "type": "Application",
+  "applicationNumber": "1697517948",
+  "emiratesID": "",
+  "emiratesExpiryDate": "",
+  "createdDate": {
+    "$date": "2023-10-17T04:45:48.595Z"
+  },
+  "__v": 0,
+  "address": {
+    "currentAddress": {
+      "P_O_Box": "",
+      "villa_ApartmentNo": "",
+      "building": "",
+      "emirate": "",
+      "street": "",
+      "area": "",
+      "email": "test0000@gmail.com",
+      "mobileNumber": "9658214785",
+      "landLineNumber": "",
+      "residenceStatus": "",
+      "monthlyRentPaid": "",
+      "_id": {
+        "$oid": "652e120a71c6b6a99da30fe5"
+      }
+    },
+    "permanentAddress": {
+      "P_O_Box": "SDFGDSG",
+      "villa_ApartmentNo": "SDFGSDF",
+      "building": "GSDFGSDF",
+      "country": "Afghanistan",
+      "city": "GDFSG",
+      "street": "GSDFGDSFG",
+      "area": "SDFGS",
+      "telephoneNumber": "654642136754",
+      "_id": {
+        "$oid": "652e120a71c6b6a99da30fe6"
+      }
+    },
+    "_id": {
+      "$oid": "652e120a71c6b6a99da30fe4"
+    }
+  },
+  "dateOfBirth": "26/10/2023",
+  "employmentDetails": {
+    "name": "DSGF",
+    "employeeNumber": "SDGF",
+    "designation": "RESTFD",
+    "department": "SFGSFD",
+    "address": "ASDFTR",
+    "emiRate": "SADTFDG",
+    "monthlyIncome": "654897",
+    "salaryTransferDate": "4",
+    "dateofJoiningJob": "19/10/2023",
+    "_id": {
+      "$oid": "652e120a71c6b6a99da30fe7"
+    }
+  },
+  "fullName": "Demo Name",
+  "gender": "male",
+  "maritalStatus": "single",
+  "nationality": "AF",
+  "noOfDependents": "54",
+  "otherExpensis": {
+    "monthlyEducationExpenses": "165",
+    "monthlyFoodExpenses": "165",
+    "monthlyHouseRentExpenses": "165",
+    "total": "495",
+    "_id": {
+      "$oid": "652e120a71c6b6a99da30ff0"
+    }
+  },
+  "passport": {
+    "passportNo": "2423534543",
+    "passportExpiryDate": "18/10/2023",
+    "_id": {
+      "$oid": "652e120a71c6b6a99da30fe2"
+    }
+  },
+  "qualifications": "graduate",
+  "references": {
+    "inUae": {
+      "name": "",
+      "relation": "",
+      "mobileNumber": "",
+      "officeNo": "",
+      "address": "",
+      "_id": {
+        "$oid": "652e120a71c6b6a99da30ff2"
+      }
+    },
+    "inHomeCountry": {
+      "name": "SERER",
+      "relation": "Father",
+      "mobileNumber": "32174984",
+      "employer": "RETHNJ",
+      "country": "Afghanistan",
+      "officeNo": "21",
+      "address": "SARTG",
+      "_id": {
+        "$oid": "652e120a71c6b6a99da30ff3"
+      }
+    },
+    "_id": {
+      "$oid": "652e120a71c6b6a99da30ff1"
+    }
+  },
+  "residenceVisa": {
+    "residenceVisaNo": "",
+    "visaIssueDate": "18/10/2023",
+    "visaExpiryDate": "20/10/2023",
+    "_id": {
+      "$oid": "652e120a71c6b6a99da30fe3"
+    }
+  },
+  "typeOfLiability": {
+    "educationalFinance": {
+      "bank": "Main Bank",
+      "amountOutstanding": "159",
+      "monthlyRepayments": "128",
+      "_id": {
+        "$oid": "652e120a71c6b6a99da30fe9"
+      }
+    },
+    "personalFinance": {
+      "bank": "Main Bank",
+      "amountOutstanding": "159",
+      "monthlyRepayments": "128",
+      "_id": {
+        "$oid": "652e120a71c6b6a99da30fea"
+      }
+    },
+    "autoFinance": {
+      "bank": "Main Bank",
+      "amountOutstanding": "159",
+      "monthlyRepayments": "128",
+      "_id": {
+        "$oid": "652e120a71c6b6a99da30feb"
+      }
+    },
+    "creditCard": {
+      "bank": "Main Bank",
+      "amountOutstanding": "159",
+      "monthlyRepayments": "128",
+      "_id": {
+        "$oid": "652e120a71c6b6a99da30fec"
+      }
+    },
+    "mortgage": {
+      "bank": "Main Bank",
+      "amountOutstanding": "159",
+      "monthlyRepayments": "128",
+      "_id": {
+        "$oid": "652e120a71c6b6a99da30fed"
+      }
+    },
+    "other_liabilities": {
+      "bank": "Main Bank",
+      "amountOutstanding": "159",
+      "monthlyRepayments": "128",
+      "_id": {
+        "$oid": "652e120a71c6b6a99da30fee"
+      }
+    },
+    "total": {
+      "bank": "",
+      "amountOutstanding": "954",
+      "monthlyRepayments": "768",
+      "_id": {
+        "$oid": "652e120a71c6b6a99da30fef"
+      }
+    },
+    "_id": {
+      "$oid": "652e120a71c6b6a99da30fe8"
+    }
+  }
+}]

@@ -1,0 +1,8 @@
+[{
+  "_id": {
+    "$oid": "64bf93d17c37362bbada0940"
+  },
+  "email": "reemfinance@gmail.com",
+  "password": "04d225ce1e6d959c725fa5a0feaf1609",
+  "role": "admin"
+}]

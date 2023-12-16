@@ -1,0 +1,63 @@
+[{
+  "_id": {
+    "$oid": "64cc9d49847466b3ad9e222a"
+  },
+  "documentName": "Eid",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64cc9d49847466b3ad9e222c"
+  },
+  "documentName": "passport",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64cc9d49847466b3ad9e222e"
+  },
+  "documentName": "residentVisa",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64cc9d49847466b3ad9e2230"
+  },
+  "documentName": "tenancyContract",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64cc9d6d847466b3ad9e2232"
+  },
+  "documentName": "Credit Card",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d48da55156f290880e56b1"
+  },
+  "documentName": "Resident Visa",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d4b76f7eba97f918a39f53"
+  },
+  "documentName": "Emirates Id",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651d05200d32d8ebad5e00dc"
+  },
+  "documentName": "Account Opening Form",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651d08f3c0888735a20b66d7"
+  },
+  "documentName": "Corporate Deposit Form",
+  "__v": 0
+}]

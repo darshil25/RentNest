@@ -1,0 +1,688 @@
+{
+	"info": {
+		"_postman_id": "e81cd8ba-89e1-4311-9ea0-4acf503d2a74",
+		"name": "Buildify",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22271835"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "Basic Details",
+					"item": [
+						{
+							"name": "setaccountInfo",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{token}}",
+										"type": "text",
+										"disabled": true
+									},
+									{
+										"key": "x-token",
+										"value": "{{tokenlive}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"firstName\": \"obito\",\r\n    \"lastName\": \" Uchiha\",\r\n    \"mobileNumber\": \"9426449988\",\r\n    \"licenceNumber\": \"\",\r\n    \"countryId\": \"101\",\r\n    \"stateId\": \"\",\r\n    \"description\": \"\",\r\n    \"businessName\": \"\",\r\n    \"priceType\": \"HOUR\",\r\n    \"price\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{live}}setaccountInfo",
+									"host": [
+										"{{live}}setaccountInfo"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "setBusinessDetails",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{token}}",
+										"type": "text",
+										"disabled": true
+									},
+									{
+										"key": "x-token",
+										"value": "{{tokenlive}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"countryId\": \"101\",\r\n    \"stateId\": \"200\",\r\n    \"categoryId\": \"1\",\r\n    \"businessDate\": \"2000-11-27\",\r\n    \"addressLine1\": \"ss\",\r\n    \"addressLine2\": \"\",\r\n    \"website\": \"\",\r\n    \"cityId\": \"2023\",\r\n    \"zipcode\": \"2023\",\r\n    \"businessName\": \"businessName\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{live}}setBusinessDetails",
+									"host": [
+										"{{live}}setBusinessDetails"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "profileDetails",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{token}}",
+										"type": "text",
+										"disabled": true
+									},
+									{
+										"key": "x-token",
+										"value": "96fb754fdbe9543136c8",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\r\n\r\n    \"countryId\": \"101\",\r\n    \"stateId\": \"200\",\r\n    \"categoryId\": \"1\",\r\n    \"businessDate\": \"2000-11-27\",\r\n    \"addressLine1\": \"ss\",\r\n    \"addressLine2\": \"\",\r\n    \"website\": \"\",\r\n    \"cityId\": \"2023\",\r\n    \"businessName\": \"businessName\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{live}}profileDetails",
+									"host": [
+										"{{live}}profileDetails"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Others",
+					"item": [
+						{
+							"name": "saveFcmToken",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{token}}",
+										"type": "text"
+									},
+									{
+										"key": "x-token",
+										"value": "1aff75a426f9f4ba7a6e",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"token\":\"1115987ccw-53asdss\",\r\n\"os\":\"ANDROID\",\r\n\"osVersion\":\"a\",\r\n\"device\":\"ss\",\r\n\"appVersion\":\"ss\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{local}}saveFcmToken",
+									"host": [
+										"{{local}}saveFcmToken"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "updateLatlong",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{token}}",
+										"type": "text"
+									},
+									{
+										"key": "x-token",
+										"value": "1aff75a426f9f4ba7a6e",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"latitude\":\"00.00\",\r\n\"longitude\":\"00.00\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{local}}updateLatlong",
+									"host": [
+										"{{local}}updateLatlong"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "changeNotificationStatus",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{token}}",
+										"type": "text"
+									},
+									{
+										"key": "x-token",
+										"value": "1aff75a426f9f4ba7a6e",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"status\":\"0\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{live}}changeNotificationStatus",
+									"host": [
+										"{{live}}changeNotificationStatus"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "deleteAccount",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{token}}",
+										"type": "text",
+										"disabled": true
+									},
+									{
+										"key": "x-token",
+										"value": "694f5a0a6311b65e6d2f",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"latitude\":\"00.00\",\r\n\"longitude\":\"00.00\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{live}}deleteAccount",
+									"host": [
+										"{{live}}deleteAccount"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Authentication",
+					"item": [
+						{
+							"name": "changePassword",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{token}}",
+										"type": "text"
+									},
+									{
+										"key": "x-token",
+										"value": "1aff75a426f9f4ba7a6e",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\r\n\"currentPassword\":\"123\",\r\n\"newPassword\":\"Test@123\",\r\n\"confirmPassword\":\"Test@123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{local}}changePassword",
+									"host": [
+										"{{local}}changePassword"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "verifyOTP",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"otp\":\"3628\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{live}}verifyOTP",
+									"host": [
+										"{{live}}verifyOTP"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "resendOTP",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{local}}resendOTP",
+									"host": [
+										"{{local}}resendOTP"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "resetPassword",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"password\": \"1234@Abcd\",\r\n    \"confirmPassword\": \"1234@Abcd\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{local}}resetPassword",
+									"host": [
+										"{{local}}resetPassword"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Public",
+			"item": [
+				{
+					"name": "Authenticate",
+					"item": [
+						{
+							"name": "socialMediaLogin",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"appVersion\":\"1.0\",\r\n    \"device\": \"en_US\",\r\n    \"email\": \"dharmikkumar2001@gmail.com\",\r\n    \"id\": \"118173610769869870612\",\r\n    \"loginType\": \"googleId\",\r\n    \"os\": \"Android\",\r\n    \"osVersion\": \"RMX2020_11_C.12\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{publiclocal}}socialMediaLogin",
+									"host": [
+										"{{publiclocal}}socialMediaLogin"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "loginWithPassword",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "apitoken",
+										"value": "b361dc54ca90a4dd02efaf412ed54f9a",
+										"type": "text",
+										"disabled": true
+									},
+									{
+										"key": "Access-Control-Allow-Origin",
+										"value": "*",
+										"type": "text",
+										"disabled": true
+									},
+									{
+										"key": "Access-Control-Expose-Headers",
+										"value": "Content-Length",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"bb@gmail.com\",\r\n    \"password\": \"123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{publiclive}}login",
+									"host": [
+										"{{publiclive}}login"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "registration",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "c044572ed8441d061a1b1dc5707994",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "email",
+											"value": "bbss@gmail.com",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "Ghoul23@12",
+											"type": "text"
+										},
+										{
+											"key": "confirmPassword",
+											"value": "Ghoul23@12",
+											"type": "text"
+										},
+										{
+											"key": "accountType",
+											"value": "SUBCONTRACTOR",
+											"type": "text"
+										},
+										{
+											"key": "profilePicture",
+											"type": "file",
+											"src": [],
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "{{publiclive}}registration",
+									"host": [
+										"{{publiclive}}registration"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "forgetPassword",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\":\"xpertlab.itachi@gmail.com\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{publiclocal}}forgetPassword",
+									"host": [
+										"{{publiclocal}}forgetPassword"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "countryList",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{publiclocal}}countryList",
+							"host": [
+								"{{publiclocal}}countryList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "cityList",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{publiclive}}cityList/4030",
+							"host": [
+								"{{publiclive}}cityList"
+							],
+							"path": [
+								"4030"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "stateList",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{publiclocal}}stateList/101",
+							"host": [
+								"{{publiclocal}}stateList"
+							],
+							"path": [
+								"101"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "categoryList",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{publiclive}}categoryList",
+							"host": [
+								"{{publiclive}}categoryList"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Base path",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.gogagner.com/BF/public/",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gogagner",
+						"com"
+					],
+					"path": [
+						"BF",
+						"public",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "publiclocal",
+			"value": "http://localhost:8080/BF/public/",
+			"type": "string"
+		},
+		{
+			"key": "local",
+			"value": "http://localhost:8080/BF/api/",
+			"type": "string"
+		},
+		{
+			"key": "token",
+			"value": "158f57836b002274affe",
+			"type": "string"
+		},
+		{
+			"key": "publiclive",
+			"value": "https://api.gogagner.com/BF/public/",
+			"type": "string"
+		},
+		{
+			"key": "live",
+			"value": "https://api.gogagner.com/BF/api/",
+			"type": "string"
+		},
+		{
+			"key": "tokenlive",
+			"value": "d031e549358af7058251",
+			"type": "string"
+		}
+	]
+}
