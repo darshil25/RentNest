@@ -411,7 +411,7 @@ export default function Home() {
 								<div className="blog-grid1-date pull-right"><i className="fa fa-calendar-o"></i>28/09/15</div>
 								<div className="clearfix"></div>
 							</div>
-							<Link to="" className="blog-grid1-title"><h4>It’s much cheaper to buy than to rent</h4></Link>
+							<Link to="" className="blog-grid1-title"><h4>It’s much cheaper to rent than to buy</h4></Link>
 							<div className="blog-grid1-separator"></div>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet...</p>
 							
@@ -430,7 +430,7 @@ export default function Home() {
 								<div className="blog-grid1-date pull-right"><i className="fa fa-calendar-o"></i>28/09/15</div>
 								<div className="clearfix"></div>
 							</div>
-							<Link to="" className="blog-grid1-title"><h4>It’s much cheaper to buy than to rent</h4></Link>
+							<Link to="" className="blog-grid1-title"><h4>It’s much cheaper to rent than to buy</h4></Link>
 							<div className="blog-grid1-separator"></div>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet...</p>
 							
@@ -445,7 +445,7 @@ export default function Home() {
 								<div className="blog-grid1-date pull-right"><i className="fa fa-calendar-o"></i>28/09/15</div>
 								<div className="clearfix"></div>
 							</div>
-							<Link to="" className="blog-grid1-title"><h4>It’s much cheaper to buy than to rent</h4></Link>
+							<Link to="" className="blog-grid1-title"><h4>It’s much cheaper to rent than to buy</h4></Link>
 							<div className="blog-grid1-separator"></div>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet...</p>
 							
@@ -463,7 +463,7 @@ export default function Home() {
 								<div className="blog-grid1-date pull-right"><i className="fa fa-calendar-o"></i>28/09/15</div>
 								<div className="clearfix"></div>
 							</div>
-							<Link to="" className="blog-grid1-title"><h4>It’s much cheaper to buy than to rent</h4></Link>
+							<Link to="" className="blog-grid1-title"><h4>It’s much cheaper to rent than to buy</h4></Link>
 							<div className="blog-grid1-separator"></div>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet...</p>
 							
