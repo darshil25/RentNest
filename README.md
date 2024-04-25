@@ -30,8 +30,9 @@ Welcome to RentNest, a web application that revolutionizes the rental experience
 
 ## Demo
 Check out the demo of RentNest on YouTube:
-
-[![RentNest Demo](https://img.youtube.com/vi/YAogb5RwXLM/0.jpg)](https://youtu.be/YAogb5RwXLM)
+<br />Web App<br />
+[![RentNest WebApp Demo](https://img.youtube.com/vi/YAogb5RwXLM/0.jpg)](https://youtu.be/0c9VOjhZLAk)
+<br /><br /> Mobile App <br />[![RentNest App Demo](https://i.ytimg.com/vi/bijv9IVSc-A/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBjgKAAuADigIMCAAQARhlIGUoZTAP&rs=AOn4CLBZlRxhicsu68UKBD3G4H3m2ea2Aw)](https://youtu.be/bijv9IVSc-A)
 
 ## Technologies Used
 
@@ -77,7 +78,7 @@ Check out the demo of RentNest on YouTube:
 
 1. Visit `http://localhost:3000` in your web browser.
 2. Register as a landlord or tenant.
-3. Explore the features of RentNest.
+3. Explore the properties on RentNest.
 
 ## Contributing
 We welcome contributions! If you have any suggestions, bug reports, or feature requests, feel free to open an issue or create a pull request.
