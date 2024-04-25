@@ -1,0 +1,128 @@
+@media (min-width: 467px) {
+    .navbar-toggle {
+      display: none; 
+    }
+    .navbar-collapse {
+      display: block !important; 
+    }
+  }
+
+  /* CSS for mobile view (screens up to 767px) */
+  @media (max-width: 467px) {
+    .navbar-toggle {
+      display: block; 
+    }
+    .navbar-collapse {
+      display: none; 
+    }
+    .navbar-collapse.show {
+      display: block; 
+    }
+    #navbar{
+        display: none !important;
+    }
+  }
+  .navbar-right .nav_item:hover .nav_item_text {
+    color: white;
+}
+.text-blue{
+  color: #3797dd;
+}
+
+  .nav_item:hover{
+    background-color: #3797dd;
+  }
+
+  .modal-dialog{
+    box-shadow: 0 0 5px 0px #6d6d6d;
+    border-radius: 17px;
+  }
+  .special-color{
+    font-size: 15px !important;
+  }
+
+  .apartment-modal .modal-body::-webkit-scrollbar {
+    width: 0px; /* Width of the scrollbar */
+  }
+  
+ 
+  
+  /* Handle */
+  .apartment-modal .modal-body::-webkit-scrollbar-thumb {
+    background: #d2d1d1; 
+    border-radius: 10px; 
+  }
+  
+  .error_text{
+    color: red;
+  }
+
+  .slide-desc-col {
+    opacity: 0; /* Initially hide the container */
+    transform: translateY(-50px); /* Move container up */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Add transition effects */
+  }
+  
+  .slide-desc-col.show {
+    opacity: 1; /* Show the container */
+    transform: translateY(0); /* Move container to its original position */
+  }
+
+  .swiper-slide {
+    position: relative;
+  }
+  
+  
+  .content-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover !important;
+  }
+
+  .font-weight-bold{
+    font-weight: bold !important;
+  }
+  
+
+
+.grid-offer-back {
+  transform: rotateY(180deg);
+}
+
+.grid-offer:hover .grid-offer-front {
+  transform: rotateY(-180deg);
+}
+
+.grid-offer:hover .grid-offer-back {
+  transform: rotateY(0deg);
+}
+
+.read_more_link{
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+ color: #3797dd;
+  border: 0px !important;
+}
+
+.read_more_link:hover{
+  background-color: #3797dd;
+  color: #fff;
+  transition: all .5s ease-in-out
+}
+
+.footer_emai_input{
+  background-color: #fff !important;
+}
+
+.radioinput{
+
+    padding: 9px;
+    border-radius: 50%;
+    margin-bottom: 7px !important;
+
+}
